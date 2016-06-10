@@ -1,5 +1,5 @@
 # Debouncinator
-Debounce library for Arduino (and others)
+Debounce library for Arduino
 
 Stick this in a directory called "Debouncinator" and put that in your Arduino libraries directory.  Call init() for each pin you want to debounce, optionally with an initial state and a trigger state (default is write the pin HIGH and trigger on LOW).  Call read() every time you want to check a pin.  read() will return the state of the pin, and it will mark the pin as "fired" if it transitions from the non-trigger state to the trigger state.  fired() will return whether or not the pin has fired since the last time you called fired().
 
