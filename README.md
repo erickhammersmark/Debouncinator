@@ -10,6 +10,7 @@ Example usage:
     #define SWITCH_PIN 4
     #define BUTTON_PIN 5
     #define THIRD_PIN 6
+    
     Debouncinator db;
     
     void setup() {
